@@ -18,16 +18,6 @@ EOF
 
 sudo pacman -S hyprland waybar dunst hyprpaper hypridle xdg-desktop-portal-hyprland xdg-user-dirs-gtk rofi-wayland noto-fonts ttf-fira-sans ttf-font-awesome lxappearance libadwaita brightnessctl kitty alacritty sddm hyprlock firefox vlc mousepad thunar file-roller thunar-archive-plugin tumbler ffmpegthumbnailer gvfs-mtp galculator ristretto
 
-cat << "EOF"
-
-Setting Up Dotfiles :                                     
-                                        
-EOF
-
-gti clone https://github.com/snadipsky/dotfiles
-cd dotfiles/hyprland/config/
-
-cp -r hypr rofi waybar /home/mendax/.config/
 
 cat << "EOF"
 
