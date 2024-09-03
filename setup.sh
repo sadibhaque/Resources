@@ -1,0 +1,1 @@
+sudo pacman -S hyprland waybar dunst hyprpaper hypridle xdg-desktop-portal-hyprland xdg-user-dirs-gtk rofi-wayland noto-fonts ttf-fira-sans ttf-font-awesome lxappearance libadwaita brightnessctl kitty allacritty sddm hyperlock firefox vlc mousepad thunar file-roller thunar-archive-plugin tumbler ffmegthumbnailer gvfs-mtp galculator ristretto
