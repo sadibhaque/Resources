@@ -21,16 +21,6 @@ sudo pacman -S hyprland waybar dunst hyprpaper hypridle xdg-desktop-portal-hyprl
 
 cat << "EOF"
 
-Installing YAY repo :                                     
-                                        
-EOF
-
-gti clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -sri
-
-cat << "EOF"
-
-Initial Setup Done !                                     
+Apps & Utilities Setup Done !                                     
                                         
 EOF
