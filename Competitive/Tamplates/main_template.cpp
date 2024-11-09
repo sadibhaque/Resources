@@ -1,23 +1,22 @@
 #include "bits/stdc++.h"
+#include "ext/pb_ds/assoc_container.hpp"
+#include "ext/pb_ds/tree_policy.hpp"
+
 using namespace std;
+using namespace __gnu_pbds;
 
-template <typename T, typename U> long long max (T x, U y) {return (x > y) ? x : y;}
-template <typename T, typename U> long long min (T x, U y) {return (x < y) ? x : y;}
-template <typename T, typename U> long long gccd(T a, U b) {while (b != 0) { T t = b; b = a % b; a = t;} return a;}
-template <typename T, typename U> long long lccm(T x, U y) {return ((long long)x / gccd((long long)x, (long long)y)) * y;}
+#define int long long
+#define lcm(a, b) ((a * b) / __gcd(a, b));
 
-void solve() {
-	
+template <typename T> using pbds = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
+
+
+void S_1984() {
+    
 }
 
-int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
-	int t = 1;
-	cin >> t;
-	while (t--) solve();
+signed main() {
+    int t = 1; cin >> t;
+    while (t--) S_1984();
+    return 0;
 }
